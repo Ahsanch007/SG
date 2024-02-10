@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords"
+        content="Безопасная сделка, безопасно купить группу, сделка без риска, покупка групп, биржа групп, гарант, купить с гарантом">
+    <meta name="description"
+        content="Безопасная сделка. Защита от мошенников при покупке и продаже групп. Купить или продать группу без риска.">
+
+    <title> Безопасная сделка. Защита от мошенников. Оплата и условия
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="messages" class="messages"></div>
+
+
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#registrationModal" class="chat-button">
+        <div class="chat-button__container" title="Написать администрации сайта">
+            <i class="icon icon-chat"></i>
+        </div>
+        <div class="chat-button__hint">
+            Написать администрации сайта
+        </div>
+    </a>
+
+    <div class="page">
+
+        <header id="header" class="header">
+            <div class="header__top container">
+                <nav class="header__menu">
+                    <ul>
+                        <li>
+                            <a class="" href="index.html">
+                                <i class="icon icon-briefcase"></i>Биржа
+                            </a>
+                        </li>
+                        <li class="header__menu-dropdown">
+                            <a class="active" href="how-it-work.html">
+                                <i class="icon icon-shield2"></i>Безопасная сделка
+                            </a>
+                            <ul>
+                                <li><a class="" href="how-it-work.html">Как это работает?</a></li>
+                                <li><a class="active" href="fee.html">Оплата и условия</a></li>
+                                <li><a class="" href="arbitrage.html">�&nbsp;ешение споров</a></li>
+                                <li><a class="" href="review.html">Отзывы</a></li>
+                            </ul>
+                        </li>
+                        <li class="desktop_wide">
+                            <a class="" href="sellers.html">
+                                <i class="icon icon-trophy"></i>РЕЙТИНГ ПРОДАВЦОВ
+                            </a>
+                        </li>
+                        <li class="desktop_wide">
+                            <a class="" href="referral.html"> <i class="icon icon-handshake"></i>Партнерка
+                            </a>
+                        </li>
+                        <li class="header__menu-dropdown desktop">
+                            <a class="" href="javascript:void(0)">
+                                Другое
+                            </a>
+                            <ul>
+                                <li><a class="" href="sellers.html">РЕЙТИНГ ПРОДАВЦОВ</a></li>
+                                <li><a class="" href="referral.html"> Партнерка</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="index.html" class="header__logo"></a>
+
+                <div class="header__top-actions">
+                    <button data-goal="create-advert" type="button" data-toggle="modal" data-target="#registrationModal"
+                        class="btn btn_blue">
+                        <i class="icon icon_mr icon-new"></i>
+                        Новое объявление
+                    </button>
+
+                    <div class="button-group">
+                        <button data-goal="click-reg" data-toggle="modal" data-target="#registrationModal"
+                            class="btn btn_green" type="button">
+                            <i class="icon icon_mr icon-user"></i>
+                            �&nbsp;егистрация
+                        </button>
+                        <button data-toggle="modal" data-target="#loginModal" class="btn" type="button">
+                            <i class="icon icon_mr icon-login"></i>
+                            Вход
+                        </button>
+                    </div>
+
+                </div>
+                <div class="header__mobile-links">
+                </div>
+
+                <button type="button" class="header__burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+            <div class="header__dropdown">
+                <div class="container">
+                    <div class="header__dropdown-actions">
+                        <a href="javascript:void(0)" data-goal="create-advert" type="button" data-toggle="modal"
+                            data-target="#registrationModal" class="btn btn_blue btn--dropdown">
+                            <i class="icon icon_mr icon-new"></i>
+                            Новое объявление
+                        </a>
+                        <div class="button-group">
+                            <button data-goal="click-reg" data-toggle="modal" data-target="#registrationModal"
+                                class="btn btn_green" type="button">
+                                <i class="icon icon_mr icon-user"></i>
+                                �&nbsp;егистрация
+                            </button>
+                            <button data-toggle="modal" data-target="#loginModal" class="btn header__login"
+                                type="button">
+                                <i class="icon icon_mr icon-login"></i>
+                                Вход
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="header__dropdown-menu">
+
+                        <ul>
+                            <li>
+                                <a class="" href="/">
+                                    <i class="icon icon-briefcase"></i>Биржа
+                                </a>
+                            </li>
+                            <li>
+                                <a class="active" href="/safedeal/how-it-work/">
+                                    <i class="icon icon-shield2"></i>Безопасная сделка
+                                </a>
+                                <ul>
+                                    <li><a class="" href="/safedeal/how-it-work/">Как это работает?</a></li>
+                                    <li><a class="active" href="fee.html">Оплата и условия</a></li>
+                                    <li><a class="" href="arbitrage.html">�&nbsp;ешение споров</a></li>
+                                    <li><a class="" href="review.html">Отзывы</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="" href="sellers.html">
+                                    <i class="icon icon-trophy"></i>РЕЙТИНГ ПРОДАВЦОВ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="" href="referral.html"> <i class="icon icon-handshake"></i>Партнерка
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="content content_change-container payment">
+            <section class="main-screen">
+                <div class="main-screen__bg"></div>
+                <div class="main-screen__container container">
+                    <div class="main-screen__info">
+                        <h1>Оплата<br>и условия</h1>
+                        <p>Мы гарантируем сохранность денежных средств на протяжении всей сделки покупки-продажи
+                            сообщества, а также соблюдение договоренностей между покупателем и продавцом</p>
+                    </div>
+                    <div class="main-screen__image">
+                        <img src="images-3/main.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="payment__box box">
+                    <div class="box__part">
+                        <div class="box__part-title">�&nbsp;ассчитать комиссию</div>
+                        <div class="calculate">
+                            <div class="calculate__params-container">
+                                <div class="calculate__param">
+                                    <div class="calculate__param-title">Сумма сделки</div>
+                                    <input id="calculator-cost" type="text" class="calculate__param-input" value="5000">
+                                </div>
+                                <div class="calculate__param">
+                                    <div class="calculate__param-title">Комиссию платит</div>
+                                    <select id="calculator-commission-seller" class="calculate__param-select"
+                                        data-entity="select2">
+                                        <option value="consumer">Покупатель</option>
+                                        <option value="supplier">Продавец</option>
+                                        <option value="50/50">50% на 50%</option>
+                                    </select>
+                                </div>
+                                <div class="calculate__coin calculate__coin_1"></div>
+                                <div class="calculate__coin calculate__coin_2"></div>
+                                <div class="calculate__coin calculate__coin_3"></div>
+                                <div class="calculate__coin calculate__coin_4"></div>
+                                <div class="calculate__coin calculate__coin_5"></div>
+                                <div class="calculate__coin calculate__coin_6"></div>
+                            </div>
+                            <div class="calculate__result-container">
+                                <div class="calculate__result">
+                                    <div class="calculate__result-bg calculate__result-bg_1">
+                                        <img src="images-3/cloud-1.svg" alt="">
+                                    </div>
+                                    <div class="calculate__result-title">Покупатель</div>
+                                    <div class="calculate__result-text">Оплатит: <span
+                                            class="calculate__result-price"><span id="fee_buyer">5250</span>
+                                            �&nbsp;</span></div>
+                                    <a href="#seller" class="calculate__result-payment">Способы оплаты</a>
+                                </div>
+                                <div class="calculate__result">
+                                    <div class="calculate__result-bg calculate__result-bg_2">
+                                        <img src="images-3/cloud-2.svg" alt="">
+                                    </div>
+                                    <div class="calculate__result-title">Salegroups</div>
+                                    <div class="calculate__result-text">Защита сделки: <span
+                                            class="calculate__result-price"><span id="fee_sg">250</span> �&nbsp;</span>
+                                    </div>
+                                </div>
+                                <div class="calculate__result">
+                                    <div class="calculate__result-bg calculate__result-bg_3">
+                                        <img src="images-3/cloud-3.svg" alt="">
+                                    </div>
+                                    <div class="calculate__result-title">Продавец</div>
+                                    <div class="calculate__result-text">К выплате: <span
+                                            class="calculate__result-price"><span id="fee_seller">5000</span>
+                                            �&nbsp;</span></div>
+                                    <a href="#payeer" class="calculate__result-payment">Способы выплаты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__part">
+                        <div class="box__part-title">�&nbsp;азмер комиссии Salegroups</div>
+                        <div class="fees">
+                            <div class="fees__united">
+                                <div class="fees__title fees__title_green">Сумма сделки, �&nbsp;</div>
+                                <div class="fees__title fees__title_blue">Комиссия сервиса</div>
+                                <div class="fees__box">
+                                    <div class="fees__row">
+                                        <div class="fees__item">
+                                            до <span class="fees__price">1400</span>
+                                        </div>
+                                        <div class="fees__item">
+                                            <span class="fees__value">50 �&nbsp;</span>
+                                        </div>
+                                    </div>
+                                    <div class="fees__row">
+                                        <div class="fees__item">
+                                            от <span class="fees__price">1400</span> до <span
+                                                class="fees__price">25000</span>
+                                        </div>
+                                        <div class="fees__item">
+                                            <span class="fees__value">5%</span>
+                                        </div>
+                                    </div>
+                                    <div class="fees__row">
+                                        <div class="fees__item">
+                                            от <span class="fees__price">25000</span> до <span
+                                                class="fees__price">50000</span>
+                                        </div>
+                                        <div class="fees__item">
+                                            <span class="fees__value">4.5%</span>
+                                        </div>
+                                    </div>
+                                    <div class="fees__row">
+                                        <div class="fees__item">
+                                            от <span class="fees__price">50000</span>
+                                        </div>
+                                        <div class="fees__item">
+                                            <span class="fees__value">4%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fees__seperated">
+                                <div class="fees__block fees__block_green">
+                                    <div class="fees__title">Сумма сделки, �&nbsp;</div>
+                                    <div class="fees__box">
+                                        <div data-fees="1" class="fees__item fees__item_after">
+                                            до <span class="fees__value">1400</span>
+                                        </div>
+                                        <div data-fees="2" class="fees__item fees__item_after">
+                                            от <span class="fees__value">1400</span> до <span
+                                                class="fees__value">25000</span>
+                                        </div>
+                                        <div data-fees="3" class="fees__item fees__item_after">
+                                            от <span class="fees__value">25000</span> до <span
+                                                class="fees__value">50000</span>
+                                        </div>
+                                        <div data-fees="4" class="fees__item fees__item_after">
+                                            от <span class="fees__value">50000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fees__block fees__block_blue">
+                                    <div class="fees__title">Комиссия сервиса</div>
+                                    <div class="fees__box arrow">
+                                        <div data-fees="1" class="fees__item fees__item_before">
+                                            <span class="fees__value">50 �&nbsp;</span>
+                                        </div>
+                                        <div data-fees="2" class="fees__item fees__item_before">
+                                            <span class="fees__value">5%</span>
+                                        </div>
+                                        <div data-fees="3" class="fees__item fees__item_before">
+                                            <span class="fees__value">4.5%</span>
+                                        </div>
+                                        <div data-fees="4" class="fees__item fees__item_before">
+                                            <span class="fees__value">4%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__part box__part_no-border">
+                        <div class="box__part-title">Дополнительные комиссии</div>
+                        <div class="box__part-description">Покупатель может оплатить сделку с помощью банковской карты*
+                            или через электронный платеж. В большинстве случаев перевод осуществляется моментально, но
+                            время транзакции может быть увеличено банком-эквайером.</div>
+                    </div>
+                    <div id="payeer" class="box__part">
+                        <div class="box__part-title">Мы принимаем</div>
+                        <div class="payment__ways-container">
+                            <div class="payment__way payment__way_visa">
+                                <img src="images-3/visa.svg">
+                            </div>
+                            <div class="payment__way payment__way_mastercard">
+                                <img src="images-3/mastercard.svg">
+                            </div>
+                            <div class="payment__way payment__way_yamoney">
+                                <img src="images-3/yamoney.svg">
+                            </div>
+                            <div class="payment__way payment__way_qiwi">
+                                <img src="images-3/qiwi.svg">
+                            </div>
+                        </div>
+                        <div class="payment__content payment__content_we-accept">
+                            <div class="payments-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Способ проведения платежа</th>
+                                            <th>Комиссия за�&nbsp;перевод</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Карта Visa / MasterCard</td>
+                                            <td class="payments-table__price">2.6%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Баланс сайта</td>
+                                            <td class="payments-table__price">0%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Кошелек Яндекс.Деньги</td>
+                                            <td class="payments-table__price">0%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Кошелек QIWI</td>
+                                            <td class="payments-table__price">1.5%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="payments-table__footer">
+                                    * У некоторых банков, существует лимит единоразового перевода на Яндекс.Деньги в
+                                    размере 15 000 �&nbsp;.<br><br>
+                                    Если сумма сделки более 15 000 �&nbsp;, рекомендуем использовать для оплаты
+                                    Яндекс.Деньги или QIWI
+                                </div>
+                            </div>
+                            <div class="payment__illustration payment__illustration_terminal">
+                                <img src="images-3/terminal.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="seller" class="box__part">
+                        <div class="box__part-title">Перевод денег продавцу</div>
+                        <div class="box__part-description">Продавец должен указать реквизиты для получения платежа, при
+                            выводе в некоторых случаях взимается комиссия. Возможны временные задержки 3-5 дней при
+                            осуществлении переводов на карты MasterCard и некоторые Visa, выпущенные Сбербанком</div>
+                        <div class="payment__content payment__content_to-seller">
+                            <div class="payment__illustration payment__illustration_card">
+                                <img src="images-3/card.svg" alt="">
+                            </div>
+                            <div class="payments-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Способ перевода денег</th>
+                                            <th>Комиссия за�&nbsp;перевод</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Карта Visa / MasterCard*</td>
+                                            <td class="payments-table__price">1.5% + 30 ₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Кошелек QIWI **</td>
+                                            <td class="payments-table__price">1.3%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Баланс сайта</td>
+                                            <td class="payments-table__price">0%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Кошелек Яндекс.Деньги</td>
+                                            <td class="payments-table__price">0%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="payments-table__footer">
+                                    * Минимальная сумма для перевода на банковскую карту составляет 150 �&nbsp;<br><br>
+                                    ** Максимально возможная сумма вывода на QIWI составляет 3 000 000 �&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment__contact">
+                            <button type="button" data-toggle="modal" data-target="#registrationModal"
+                                class="btn btn_yellow btn_admin btn_shadow btn_action">Написать администратору</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__container container">
+                    <div class="footer__menu">
+                        <div class="footer__navigation footer__navigation_service">
+                            <div class="footer__navigation-title">Сервис</div>
+                            <ul>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li><a href="about.html">О сервисе</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation footer__navigation_information">
+                            <div class="footer__navigation-title">Информация</div>
+                            <ul>
+                                <li><a href="Offer.html">Пользовательское соглашение</a></li>
+                                <li><a href="offer-grant.html">Оферта гаранта</a></li>
+                                <li><a href="Policy.html">Политика конфиденциальности</a></li>
+                                <li><a href="rules.html">Правила пользования</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation footer__navigation_networks">
+                            <div class="footer__navigation-title">Мы в соц. сетях</div>
+                            <ul>
+                                <li><a href="#"><i class="icon icon-vk"></i></a></li>
+                                <li><a href="#"><i class="icon icon-telegram"></i></a></li>
+                            </ul>
+
+                            <div class="tablet footer__navigation_payment--ul">
+                                <span><img src="images/yandex-money.svg"></span>
+                                <span><img src="images/qiwi.svg"></span>
+                                <span><img src="images/visa.svg"></span>
+                                <span><img src="images/master-card.svg"></span>
+                            </div>
+                        </div>
+                        <div class="desktop footer__navigation footer__navigation_payment">
+                            <ul>
+                                <li><img src="images/yandex-money.svg"></li>
+                                <li><img src="images/qiwi.svg"></li>
+                                <li><img src="images/visa.svg"></li>
+                                <li><img src="images/master-card.svg"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">© Salegroups.ru, 2015-2024</div>
+                        <div class="footer__description">
+                            Биржа групп в социальных сетях<br><br>
+                        </div>
+                        <div class="footer__by"></div>
+
+                        <div class="footer__navigation footer__navigation_infonetworks">
+                            <div class="footer__navigation-title">Мы в соц. сетях</div>
+                            <ul>
+                                <li><a href="#"><i class="icon icon-vk"></i></a></li>
+                                <li><a href="#"><i class="icon icon-telegram"></i></a></li>
+                            </ul>
+
+                            <div class="tablet footer__navigation_payment--ul">
+                                <span><img src="images/yandex-money.svg"></span>
+                                <span><img src="images/qiwi.svg"></span>
+                                <span><img src="images/visa.svg"></span>
+                                <span><img src="images/master-card.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="popups">
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+            aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">Войти</div>
+                    </div>
+                    <form class="login-modal__content modal__content" action="/login_check" data-ajax=""
+                        data-success="redirect" method="post">
+                        <input type="hidden" name="_csrf_token" value="L225hchamRgCTe443jQIVz8Z3tkg2G7gZ4aU6EpGCPg">
+                        <input type="hidden" name="_target_path" value="/safedeal/fee/">
+
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" name="_username" placeholder="E-mail" value="" required="required">
+                            </div>
+                            <div class="input-text">
+                                <input type="password" name="_password" placeholder="Пароль" required="required">
+                            </div>
+                        </div>
+
+                        <div class="login-modal__under-inputs">
+                            <label class="input-checkbox">
+                                <input type="checkbox" name="_remember_me" value="on" checked="">
+                                <div class="input-checkbox__box"></div>
+                                <div class="input-checkbox__label">Запомнить</div>
+                            </label>
+                            <a href="#" class="login-modal__recover-link" data-toggle="modal"
+                                data-target="#resetPasswordModal">Восстановить пароль</a>
+                        </div>
+
+                        <div class="login-modal__submit">
+                            <button type="submit" id="submit_login"
+                                class="btn btn_blue btn_shadow btn_action">войти</button>
+                        </div>
+                    </form>
+                    <div class="login-modal__extra">
+                        <div class="login-modal__extra-title">
+                            или быстро войти через соцсети
+                        </div>
+                        <div class="login-modal__socials">
+
+                            <div class="socials">
+                                <a href="https://salegroups.ru/connect/vk" class="socials__item socials__item_vk">
+                                    <i class="icon icon-vk"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/fb" class="socials__item socials__item_fb">
+                                    <i class="icon icon-fb"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/ok" class="socials__item socials__item_ok">
+                                    <i class="icon icon-ok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog"
+            aria-labelledby="resetPasswordModalLabel" aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">Восстановление пароля</div>
+                    </div>
+                    <form class="login-modal__content modal__content" data-ajax="" data-success="close-modal"
+                        action="/resetting/send" method="post">
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" name="username" placeholder="E-mail" required="required">
+                            </div>
+                        </div>
+                        <div class="login-modal__submit">
+                            <button type="submit" class="btn btn_blue btn_shadow btn_action">Сбросить пароль</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog"
+            aria-labelledby="registrationModalLabel" aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">�&nbsp;егистрация</div>
+                    </div>
+                    <form name="fos_user_registration_form" method="post" action="/register"
+                        class="login-modal__content modal__content" autocomplete="new-password" data-ajax=""
+                        data-success="redirect">
+                        <input type="hidden" name="_target_path" value="/safedeal/fee/">
+
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" id="fos_user_registration_form_fullName"
+                                    name="fos_user_registration_form[fullName]" required="required" maxlength="45"
+                                    pattern=".{3,}" autocomplete="off" placeholder="Ваше имя">
+                            </div>
+                            <div class="input-text">
+                                <input type="email" id="fos_user_registration_form_email"
+                                    name="fos_user_registration_form[email]" required="required" autocomplete="off"
+                                    placeholder="E-mail">
+                            </div>
+                            <div class="input-text">
+                                <input type="password" id="fos_user_registration_form_plainPassword"
+                                    name="fos_user_registration_form[plainPassword]" required="required"
+                                    autocomplete="new-password" placeholder="Пароль">
+                            </div>
+                        </div>
+                        <div class="login-modal__under-inputs">
+                            <label class="input-checkbox">
+                                <input type="checkbox" checked="" required="required" name="rules">
+                                <div class="input-checkbox__box"></div>
+                                <div class="input-checkbox__label">Я принимаю <a target="_blank"
+                                        href="/offer-garant/">оферту гаранта</a> и <a target="_blank"
+                                        href="/policy/">политику конфиденциальности</a>, согласен с получением
+                                    уведомлений и новостей на почту</div>
+                            </label>
+                        </div>
+                        <div class="login-modal__submit">
+                            <button type="submit" data-goal="click-reg"
+                                class="btn btn_green btn_shadow btn_action">Зарегистрироваться</button>
+                        </div>
+                        <input type="hidden" id="fos_user_registration_form__target_path"
+                            name="fos_user_registration_form[_target_path]"><input type="hidden"
+                            id="fos_user_registration_form__token" name="fos_user_registration_form[_token]"
+                            value="ABBGIXJ-M-dW7EoEt2KlJsNHqi1BIvwhS_-f1G4AREU">
+                    </form>
+                    <div class="login-modal__extra">
+                        <div class="login-modal__extra-title">
+                            или быстро войти через соцсети
+                        </div>
+                        <div class="login-modal__socials">
+
+                            <div class="socials">
+                                <a href="https://salegroups.ru/connect/vk" class="socials__item socials__item_vk">
+                                    <i class="icon icon-vk"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/fb" class="socials__item socials__item_fb">
+                                    <i class="icon icon-fb"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/ok" class="socials__item socials__item_ok">
+                                    <i class="icon icon-ok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="socialsModal" tabindex="-1" role="dialog" aria-labelledby="socialsModalLabel"
+            aria-hidden="true">
+            <div class="socials-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="socials-modal__content">
+                        <div class="socials-modal__image">
+                            <img src="images-3/socials.svg" alt="">
+                        </div>
+                        <div class="socials-modal__container">
+                            <div class="socials-modal__title">Быстро. Безопасно. Salegroups!</div>
+                            <div class="socials-modal__body">Подписывайтесь на нас, чтобы не упустить возможность живого
+                                общения, получения новостей, новых объявлений и полезных советов</div>
+                            <div class="socials-modal__buttons">
+                                <a href="https://vk.com/salegroupsru" target="_blank"
+                                    class="btn btn_action socials-modal__button socials-modal__button_vk"
+                                    rel="noreferrer">
+                                    <i class="icon icon-vk"></i>
+                                    Перейти в группу VK
+                                </a>
+                                <a href="https://t.me/salegroups" target="_blank"
+                                    class="btn btn_action socials-modal__button socials-modal__button_telegram"
+                                    rel="noreferrer">
+                                    <i class="icon icon-telegram"></i>
+                                    Перейти в Telegram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.__date = {
+            upload_avatar: '/user/avatar',
+            _cache: '',
+        }
+
+        window.sse = {
+            user: 'anon',
+            hub: 'https://salegroups.ru:3000',
+            heartbeatTimeout: 300000,
+            token: '',
+            topics: []
+        }
+
+
+        document.addEventListener('lazybeforeunveil', function (e) {
+            var bg = e.target.getAttribute('data-bg');
+
+            if (bg) {
+                e.target.style.backgroundImage = 'url(' + bg + ')';
+            }
+        });
+    </script>
+
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+        var HW_config = {
+            selector: ".header__logo",
+            account: "J3PaPy",
+            translations: {
+                title: "Последние обновления",
+                readMore: "Подробнее",
+                labels: {
+                    "new": "Новинка",
+                    "improvement": "Улучшение",
+                    "fix": "Исправление"
+                }
+            }
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+
+
+    <script>
+        var isLoadVk = false;
+        // window.onscroll = function() {
+        //     if (isLoadVk) {
+        //         return;
+        //     }
+        //     isLoadVk = true;
+        //     $.getScript("https://vk.com/js/api/openapi.js?167", function () {
+        //         VK.Widgets.Group("vk_groups", {mode: 1, color1: '1D3143', color2: 'FFFFFF', width: 'auto', no_cover: 1}, 122745489);
+        //     });
+        // };
+
+        window.onload = function () {
+            setTimeout(function () {
+                $.getScript('https://cdn.headwayapp.co/widget.js');
+
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () {
+                        (m[i].a = m[i].a || []).push(arguments)
+                    };
+                    m[i].l = 1 * new Date();
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(36391285, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            }, 3000);
+        }
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/36391285" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+
+
+</body>
+
+</html>

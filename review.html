@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords"
+        content="Безопасная сделка, безопасно купить группу, сделка без риска, покупка групп, биржа групп, гарант, купить с гарантом">
+    <meta name="description"
+        content="Безопасная сделка. Защита от мошенников при покупке и продаже групп. Купить или продать группу без риска.">
+
+    <title> Безопасная сделка. Защита от мошенников. �&nbsp;ешение споров
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="messages" class="messages"></div>
+
+
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#registrationModal" class="chat-button">
+        <div class="chat-button__container" title="Написать администрации сайта">
+            <i class="icon icon-chat"></i>
+        </div>
+        <div class="chat-button__hint">
+            Написать администрации сайта
+        </div>
+    </a>
+
+    <div class="page">
+
+        <header id="header" class="header">
+            <div class="header__top container">
+                <nav class="header__menu">
+                    <ul>
+                        <li>
+                            <a class="" href="index.html">
+                                <i class="icon icon-briefcase"></i>Биржа
+                            </a>
+                        </li>
+                        <li class="header__menu-dropdown">
+                            <a class="active" href="how-it-work.html">
+                                <i class="icon icon-shield2"></i>Безопасная сделка
+                            </a>
+                            <ul>
+                                <li><a class="" href="how-it-work.html">Как это работает?</a></li>
+                                <li><a class="" href="fee.html">Оплата и условия</a></li>
+                                <li><a class="" href="arbitrage.html">�&nbsp;ешение споров</a></li>
+                                <li><a class="active" href="review.html">Отзывы</a></li>
+                            </ul>
+                        </li>
+                        <li class="desktop_wide">
+                            <a class="" href="sellers.html">
+                                <i class="icon icon-trophy"></i>РЕЙТИНГ ПРОДАВЦОВ
+                            </a>
+                        </li>
+                        <li class="desktop_wide">
+                            <a class="" href="referral.html"> <i class="icon icon-handshake"></i>Партнерка
+                            </a>
+                        </li>
+                        <li class="header__menu-dropdown desktop">
+                            <a class="" href="javascript:void(0)">
+                                Другое
+                            </a>
+                            <ul>
+                                <li><a class="" href="sellers.html">РЕЙТИНГ ПРОДАВЦОВ</a></li>
+                                <li><a class="" href="referral.html"> Партнерка</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="/" class="header__logo"></a>
+
+                <div class="header__top-actions">
+                    <button data-goal="create-advert" type="button" data-toggle="modal" data-target="#registrationModal"
+                        class="btn btn_blue">
+                        <i class="icon icon_mr icon-new"></i>
+                        Новое объявление
+                    </button>
+
+                    <div class="button-group">
+                        <button data-goal="click-reg" data-toggle="modal" data-target="#registrationModal"
+                            class="btn btn_green" type="button">
+                            <i class="icon icon_mr icon-user"></i>
+                            �&nbsp;егистрация
+                        </button>
+                        <button data-toggle="modal" data-target="#loginModal" class="btn" type="button">
+                            <i class="icon icon_mr icon-login"></i>
+                            Вход
+                        </button>
+                    </div>
+
+                </div>
+                <div class="header__mobile-links">
+                </div>
+
+                <button type="button" class="header__burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+            <div class="header__dropdown">
+                <div class="container">
+                    <div class="header__dropdown-actions">
+                        <a href="javascript:void(0)" data-goal="create-advert" type="button" data-toggle="modal"
+                            data-target="#registrationModal" class="btn btn_blue btn--dropdown">
+                            <i class="icon icon_mr icon-new"></i>
+                            Новое объявление
+                        </a>
+                        <div class="button-group">
+                            <button data-goal="click-reg" data-toggle="modal" data-target="#registrationModal"
+                                class="btn btn_green" type="button">
+                                <i class="icon icon_mr icon-user"></i>
+                                �&nbsp;егистрация
+                            </button>
+                            <button data-toggle="modal" data-target="#loginModal" class="btn header__login"
+                                type="button">
+                                <i class="icon icon_mr icon-login"></i>
+                                Вход
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="header__dropdown-menu">
+
+                        <ul>
+                            <li>
+                                <a class="" href="index.html">
+                                    <i class="icon icon-briefcase"></i>Биржа
+                                </a>
+                            </li>
+                            <li>
+                                <a class="active" href="how-it-work.html">
+                                    <i class="icon icon-shield2"></i>Безопасная сделка
+                                </a>
+                                <ul>
+                                    <li><a class="" href="how-it-work.html">Как это работает?</a></li>
+                                    <li><a class="" href="fee.html">Оплата и условия</a></li>
+                                    <li><a class="" href="arbitrage.html">�&nbsp;ешение споров</a></li>
+                                    <li><a class="active" href="review.html">Отзывы</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="" href="sellers.html">
+                                    <i class="icon icon-trophy"></i>РЕЙТИНГ ПРОДАВЦОВ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="" href="referral.html"> <i class="icon icon-handshake"></i>Партнерка
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="content content_change-container content-reviews">
+            <section class="main-screen">
+                <div class="main-screen__bg"></div>
+                <div class="main-screen__container container">
+                    <div class="main-screen__info">
+                        <h1>Отзывы<br>Безопасной сделки</h1>
+                        <p>Мы открыто делимся информацией о себе и не удаляем отзывы. Благодаря вашим отзывам и
+                            конструктивной критике сервис становится еще лучше.</p>
+                    </div>
+                    <div class="main-screen__image">
+                        <img src="images/main.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="content-reviews__box box">
+
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="oksa503">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="oksa503">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/oksa503/"
+                                            class="review__name">oksa503</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">400 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        �&nbsp;ПСИХОЛОГ�&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">400 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        �&nbsp;ПСИХОЛОГ�&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Сделка прошла быстро, без каких-либо проблем. Спасибо!
+
+                            </div>
+                            <div class="review__date">2024-02-09 в 15:10</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpygdnqk.png" alt="Koswar">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpygdnqk.png" alt="Koswar">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/dmitrii-1316/"
+                                            class="review__name">Koswar</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Трофим Сузданов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Трофим Сузданов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Всё отлично
+
+                            </div>
+                            <div class="review__date">2024-02-03 в 12:40</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpygdnqk.png" alt="Koswar">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpygdnqk.png" alt="Koswar">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/dmitrii-1316/"
+                                            class="review__name">Koswar</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">150 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Мой Канал 16
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">150 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Мой Канал 16
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Всё отлично
+
+                            </div>
+                            <div class="review__date">2024-02-02 в 17:00</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Andrii">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Andrii">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/andrii-22/"
+                                            class="review__name">Andrii</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">480 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        🔥ШМОТ🔥
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">480 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        🔥ШМОТ🔥
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Спасибо, все супер
+
+                            </div>
+                            <div class="review__date">2024-02-01 в 23:23</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Александра">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Александра">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/aleksandra-212/"
+                                            class="review__name">Александра</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">2450 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        sleaey
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">2450 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        sleaey
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                спасибо!)
+
+                            </div>
+                            <div class="review__date">2024-01-31 в 10:23</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Саня">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Саня">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/sania-45/"
+                                            class="review__name">Саня</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1700 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Канал для старта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1700 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Канал для старта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Шикарно и быстро
+
+                            </div>
+                            <div class="review__date">2024-01-30 в 18:55</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpux9t7i.png" alt="instatreider">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpux9t7i.png" alt="instatreider">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/soldat/"
+                                            class="review__name">instatreider</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">7500 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Товар за отзыв WILDBERRIES OZON КЭШБЭК
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">7500 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Товар за отзыв WILDBERRIES OZON КЭШБЭК
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                все отлично
+
+                            </div>
+                            <div class="review__date">2024-01-30 в 16:50</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Anton">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Anton">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/anton-943/"
+                                            class="review__name">Anton</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Михайло Бескинов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Михайло Бескинов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Здорово, все отлично
+
+                            </div>
+                            <div class="review__date">2024-01-29 в 10:57</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Елена">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Елена">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/elena-552/"
+                                            class="review__name">Елена</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">499 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Недвижимость - просто
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">499 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-telegram"></i>
+
+                                        Недвижимость - просто
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Права получены
+
+                            </div>
+                            <div class="review__date">2024-01-26 в 13:09</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpx4spuh.png" alt="Alex Store">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpx4spuh.png" alt="Alex Store">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/alex-store/"
+                                            class="review__name">Alex Store</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">590 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Interior
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">590 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Interior
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Благодарю за покупку!
+
+                            </div>
+                            <div class="review__date">2024-01-25 в 11:28</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="oleg">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="oleg">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/oleg-782/"
+                                            class="review__name">oleg</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">590 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Interior
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">590 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Interior
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Спасибо, оставил вам отзыв
+
+                            </div>
+                            <div class="review__date">2024-01-25 в 11:27</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/php0ib026.png" alt="Milady_safe">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/php0ib026.png" alt="Milady_safe">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/svetlana-254/"
+                                            class="review__name">Milady_safe</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">4000 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Смотри, что нашла | Ozon | Wildberries | ЯМаркет
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">4000 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Смотри, что нашла | Ozon | Wildberries | ЯМаркет
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Всё прошло успешно
+
+                            </div>
+                            <div class="review__date">2024-01-24 в 23:20</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Николай">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Николай">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/nikolai-659/"
+                                            class="review__name">Николай</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">4500 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-tiktok"></i>
+
+                                        dimamaslen_vibe
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">4500 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-tiktok"></i>
+
+                                        dimamaslen_vibe
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Все четко!Продавец ТОП!
+
+                            </div>
+                            <div class="review__date">2024-01-23 в 20:32</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Илья">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Илья">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/ilia-938/"
+                                            class="review__name">Илья</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">2000 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Бизнес | Успех | Мотивация
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">2000 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Бизнес | Успех | Мотивация
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Сделка завершена, теперь я владелец сообщества!
+
+                            </div>
+                            <div class="review__date">2024-01-23 в 19:16</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpoyhhzk.png" alt="Inst_TG_Shop">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpoyhhzk.png" alt="Inst_TG_Shop">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/chekmazov-arkadii/"
+                                            class="review__name">Inst_TG_Shop</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1200 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Irina
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1200 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Irina
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Я подтвердил,дайте данный пожалуйста от каков)
+
+                            </div>
+                            <div class="review__date">2024-01-21 в 23:27</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpux9t7i.png" alt="instatreider">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpux9t7i.png" alt="instatreider">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/soldat/"
+                                            class="review__name">instatreider</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        FapTime [18+]
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        FapTime [18+]
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                хороший сервис , админы помогают вычислить , не честных продавцов
+
+                            </div>
+                            <div class="review__date">2024-01-21 в 17:38</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpux9t7i.png" alt="instatreider">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpux9t7i.png" alt="instatreider">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/soldat/"
+                                            class="review__name">instatreider</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        PORN ☆ STARS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">1300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        PORN ☆ STARS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                хороший сервис , админы помогают вычислить , не честных продавцов
+
+                            </div>
+                            <div class="review__date">2024-01-21 в 17:38</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Joni">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Joni">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/joni-4/"
+                                            class="review__name">Joni</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">800 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Клубника в Шоколаде Новосибирск
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">800 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-vk"></i>
+
+                                        Клубника в Шоколаде Новосибирск
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Спасибо! Доступы получил
+
+                            </div>
+                            <div class="review__date">2024-01-21 в 16:12</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/phpygdnqk.png" alt="Koswar">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/phpygdnqk.png" alt="Koswar">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Продавец</div>
+                                    <div class="review__info-value"><a href="/profile/dmitrii-1316/"
+                                            class="review__name">Koswar</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Камиль Стредин
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Камиль Стредин
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Как всегда, всё отлично.
+
+                            </div>
+                            <div class="review__date">2024-01-21 в 16:05</div>
+                        </div>
+                    </div>
+                    <div class="review  ">
+                        <div class="review__avatar">
+                            <img src="images/userpic.png" alt="Anton">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__header">
+                                <div class="review__avatar review__avatar_mobile">
+                                    <img src="images/userpic.png" alt="Anton">
+                                </div>
+                                <div class="review__info review__info_person">
+                                    <div class="review__info-title">Покупатель</div>
+                                    <div class="review__info-value"><a href="/profile/anton-943/"
+                                            class="review__name">Anton</a></div>
+                                </div>
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Камиль Стредин
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__sub-header">
+                                <div class="review__info review__info_price">
+                                    <div class="review__info-title">Сумма сделки</div>
+                                    <div class="review__info-value">300 ₽</div>
+                                </div>
+                                <div class="review__info review__info_group">
+                                    <div class="review__info-title">Группа</div>
+                                    <div class="review__info-value">
+                                        <i class="icon icon-instagram"></i>
+
+                                        Камиль Стредин
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__body">
+                                Здорово, супер))
+
+                            </div>
+                            <div class="review__date">2024-01-20 в 22:51</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-reviews__pagination">
+
+                    <nav class="pagination">
+                        <ul>
+                            <li class="pagination__prev pagination__prev_disabled">
+                                <a href="javascript:void(0)">
+                                    <i class="icon icon-pagination-arrow"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination__link active">
+                                <a href="/safedeal/review/?page=1">1</a>
+                            </li>
+                            <li class="pagination__link">
+                                <a href="/safedeal/review/?page=2">2</a>
+                            </li>
+                            <li class="pagination__link">
+                                <a href="/safedeal/review/?page=3">3</a>
+                            </li>
+                            <li class="pagination__link">
+                                <a href="/safedeal/review/?page=4">4</a>
+                            </li>
+                            <li class="pagination__link">
+                                <a href="/safedeal/review/?page=5">5</a>
+                            </li>
+
+                            <li class="pagination__next">
+                                <a href="/safedeal/review/?page=2">
+                                    <i class="icon icon-pagination-arrow"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__container container">
+                    <div class="footer__menu">
+                        <div class="footer__navigation footer__navigation_service">
+                            <div class="footer__navigation-title">Сервис</div>
+                            <ul>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li><a href="about.html">О сервисе</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation footer__navigation_information">
+                            <div class="footer__navigation-title">Информация</div>
+                            <ul>
+                                <li><a href="Offer.html">Пользовательское соглашение</a></li>
+                                <li><a href="offer-grant.html">Оферта гаранта</a></li>
+                                <li><a href="Policy.html">Политика конфиденциальности</a></li>
+                                <li><a href="rules.html">Правила пользования</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation footer__navigation_networks">
+                            <div class="footer__navigation-title">Мы в соц. сетях</div>
+                            <ul>
+                                <li><a href="#"><i class="icon icon-vk"></i></a></li>
+                                <li><a href="#"><i class="icon icon-telegram"></i></a></li>
+                            </ul>
+
+                            <div class="tablet footer__navigation_payment--ul">
+                                <span><img src="images/yandex-money.svg"></span>
+                                <span><img src="images/qiwi.svg"></span>
+                                <span><img src="images/visa.svg"></span>
+                                <span><img src="images/master-card.svg"></span>
+                            </div>
+                        </div>
+                        <div class="desktop footer__navigation footer__navigation_payment">
+                            <ul>
+                                <li><img src="images/yandex-money.svg"></li>
+                                <li><img src="images/qiwi.svg"></li>
+                                <li><img src="images/visa.svg"></li>
+                                <li><img src="images/master-card.svg"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">© Salegroups.ru, 2015-2024</div>
+                        <div class="footer__description">
+                            Биржа групп в социальных сетях<br><br>
+                        </div>
+                        <div class="footer__by"></div>
+
+                        <div class="footer__navigation footer__navigation_infonetworks">
+                            <div class="footer__navigation-title">Мы в соц. сетях</div>
+                            <ul>
+                                <li><a href="#"><i class="icon icon-vk"></i></a></li>
+                                <li><a href="#"><i class="icon icon-telegram"></i></a></li>
+                            </ul>
+
+                            <div class="tablet footer__navigation_payment--ul">
+                                <span><img src="images/yandex-money.svg"></span>
+                                <span><img src="images/qiwi.svg"></span>
+                                <span><img src="images/visa.svg"></span>
+                                <span><img src="images/master-card.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="popups">
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+            aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">Войти</div>
+                    </div>
+                    <form class="login-modal__content modal__content" action="/login_check" data-ajax=""
+                        data-success="redirect" method="post">
+                        <input type="hidden" name="_csrf_token" value="UamN3cY-WGRs5ttDjMbS8AY1sWOv0j3cjwLw5-KoJgo">
+                        <input type="hidden" name="_target_path" value="/safedeal/review/">
+
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" name="_username" placeholder="E-mail" value="" required="required">
+                            </div>
+                            <div class="input-text">
+                                <input type="password" name="_password" placeholder="Пароль" required="required">
+                            </div>
+                        </div>
+
+                        <div class="login-modal__under-inputs">
+                            <label class="input-checkbox">
+                                <input type="checkbox" name="_remember_me" value="on" checked="">
+                                <div class="input-checkbox__box"></div>
+                                <div class="input-checkbox__label">Запомнить</div>
+                            </label>
+                            <a href="#" class="login-modal__recover-link" data-toggle="modal"
+                                data-target="#resetPasswordModal">Восстановить пароль</a>
+                        </div>
+
+                        <div class="login-modal__submit">
+                            <button type="submit" id="submit_login"
+                                class="btn btn_blue btn_shadow btn_action">войти</button>
+                        </div>
+                    </form>
+                    <div class="login-modal__extra">
+                        <div class="login-modal__extra-title">
+                            или быстро войти через соцсети
+                        </div>
+                        <div class="login-modal__socials">
+
+                            <div class="socials">
+                                <a href="https://salegroups.ru/connect/vk" class="socials__item socials__item_vk">
+                                    <i class="icon icon-vk"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/fb" class="socials__item socials__item_fb">
+                                    <i class="icon icon-fb"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/ok" class="socials__item socials__item_ok">
+                                    <i class="icon icon-ok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog"
+            aria-labelledby="resetPasswordModalLabel" aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">Восстановление пароля</div>
+                    </div>
+                    <form class="login-modal__content modal__content" data-ajax="" data-success="close-modal"
+                        action="/resetting/send" method="post">
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" name="username" placeholder="E-mail" required="required">
+                            </div>
+                        </div>
+                        <div class="login-modal__submit">
+                            <button type="submit" class="btn btn_blue btn_shadow btn_action">Сбросить пароль</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog"
+            aria-labelledby="registrationModalLabel" aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="modal__header">
+                        <div class="modal__title">�&nbsp;егистрация</div>
+                    </div>
+                    <form name="fos_user_registration_form" method="post" action="/register"
+                        class="login-modal__content modal__content" autocomplete="new-password" data-ajax=""
+                        data-success="redirect">
+                        <input type="hidden" name="_target_path" value="/safedeal/review/">
+
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <input type="text" id="fos_user_registration_form_fullName"
+                                    name="fos_user_registration_form[fullName]" required="required" maxlength="45"
+                                    pattern=".{3,}" autocomplete="off" placeholder="Ваше имя">
+                            </div>
+                            <div class="input-text">
+                                <input type="email" id="fos_user_registration_form_email"
+                                    name="fos_user_registration_form[email]" required="required" autocomplete="off"
+                                    placeholder="E-mail">
+                            </div>
+                            <div class="input-text">
+                                <input type="password" id="fos_user_registration_form_plainPassword"
+                                    name="fos_user_registration_form[plainPassword]" required="required"
+                                    autocomplete="new-password" placeholder="Пароль">
+                            </div>
+                        </div>
+                        <div class="login-modal__under-inputs">
+                            <label class="input-checkbox">
+                                <input type="checkbox" checked="" required="required" name="rules">
+                                <div class="input-checkbox__box"></div>
+                                <div class="input-checkbox__label">Я принимаю <a target="_blank"
+                                        href="/offer-garant/">оферту гаранта</a> и <a target="_blank"
+                                        href="/policy/">политику конфиденциальности</a>, согласен с получением
+                                    уведомлений и новостей на почту</div>
+                            </label>
+                        </div>
+                        <div class="login-modal__submit">
+                            <button type="submit" data-goal="click-reg"
+                                class="btn btn_green btn_shadow btn_action">Зарегистрироваться</button>
+                        </div>
+                        <input type="hidden" id="fos_user_registration_form__target_path"
+                            name="fos_user_registration_form[_target_path]"><input type="hidden"
+                            id="fos_user_registration_form__token" name="fos_user_registration_form[_token]"
+                            value="IKeNY4ktiLK2ZIcXY0LePowpT1wiPTxRD9T50kTbXOU">
+                    </form>
+                    <div class="login-modal__extra">
+                        <div class="login-modal__extra-title">
+                            или быстро войти через соцсети
+                        </div>
+                        <div class="login-modal__socials">
+
+                            <div class="socials">
+                                <a href="https://salegroups.ru/connect/vk" class="socials__item socials__item_vk">
+                                    <i class="icon icon-vk"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/fb" class="socials__item socials__item_fb">
+                                    <i class="icon icon-fb"></i>
+                                </a>
+                                <a href="https://salegroups.ru/connect/ok" class="socials__item socials__item_ok">
+                                    <i class="icon icon-ok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="socialsModal" tabindex="-1" role="dialog" aria-labelledby="socialsModalLabel"
+            aria-hidden="true">
+            <div class="socials-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+                    <div class="socials-modal__content">
+                        <div class="socials-modal__image">
+                            <img src="images/socials.svg" alt="">
+                        </div>
+                        <div class="socials-modal__container">
+                            <div class="socials-modal__title">Быстро. Безопасно. Salegroups!</div>
+                            <div class="socials-modal__body">Подписывайтесь на нас, чтобы не упустить возможность живого
+                                общения, получения новостей, новых объявлений и полезных советов</div>
+                            <div class="socials-modal__buttons">
+                                <a href="https://vk.com/salegroupsru" target="_blank"
+                                    class="btn btn_action socials-modal__button socials-modal__button_vk"
+                                    rel="noreferrer">
+                                    <i class="icon icon-vk"></i>
+                                    Перейти в группу VK
+                                </a>
+                                <a href="https://t.me/salegroups" target="_blank"
+                                    class="btn btn_action socials-modal__button socials-modal__button_telegram"
+                                    rel="noreferrer">
+                                    <i class="icon icon-telegram"></i>
+                                    Перейти в Telegram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.__date = {
+            upload_avatar: '/user/avatar',
+            _cache: '',
+        }
+
+        window.sse = {
+            user: 'anon',
+            hub: 'https://salegroups.ru:3000',
+            heartbeatTimeout: 300000,
+            token: '',
+            topics: []
+        }
+
+
+        document.addEventListener('lazybeforeunveil', function (e) {
+            var bg = e.target.getAttribute('data-bg');
+
+            if (bg) {
+                e.target.style.backgroundImage = 'url(' + bg + ')';
+            }
+        });
+    </script>
+
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+        var HW_config = {
+            selector: ".header__logo",
+            account: "J3PaPy",
+            translations: {
+                title: "Последние обновления",
+                readMore: "Подробнее",
+                labels: {
+                    "new": "Новинка",
+                    "improvement": "Улучшение",
+                    "fix": "Исправление"
+                }
+            }
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+
+
+    <script>
+        var isLoadVk = false;
+        // window.onscroll = function() {
+        //     if (isLoadVk) {
+        //         return;
+        //     }
+        //     isLoadVk = true;
+        //     $.getScript("https://vk.com/js/api/openapi.js?167", function () {
+        //         VK.Widgets.Group("vk_groups", {mode: 1, color1: '1D3143', color2: 'FFFFFF', width: 'auto', no_cover: 1}, 122745489);
+        //     });
+        // };
+
+        window.onload = function () {
+            setTimeout(function () {
+                $.getScript('https://cdn.headwayapp.co/widget.js');
+
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () {
+                        (m[i].a = m[i].a || []).push(arguments)
+                    };
+                    m[i].l = 1 * new Date();
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(36391285, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            }, 3000);
+        }
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/36391285" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+
+
+</body>
+
+</html>
