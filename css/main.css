@@ -1,0 +1,40 @@
+.heading-page{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 30px;
+}
+.description-page p{
+    padding-bottom: 10px;
+}
+.list-services ul{
+    padding: 0px;
+
+}
+.list-services ul li {
+    padding-bottom: 10px;
+    position: relative;
+    line-height: 20px;
+}
+.seller-desc {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(212, 195, 195);
+}
+.seller-desc p{
+    padding-bottom: 15px;
+
+}
+.contacts{
+    padding: 30px 0px;
+}
+.contacts h2{
+    padding-bottom: 20px;
+}
+.contacts p{
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+p{
+    line-height: 20px;
+}
