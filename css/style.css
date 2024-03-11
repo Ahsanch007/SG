@@ -3807,13 +3807,16 @@ span:active {
         display: none
     }
 }
+#HW_badge_cont{
+    display: none;
+}
 
 .header__logo {
     width: 40px;
     height: 40px;
     display: inline-block;
     position: relative;
-    background: url("../images/logo.svg") 50% 50% no-repeat;
+    background: url("../images/IMG_20240311_160238_023-removebg-preview.png") 50% 50% no-repeat;
     background-size: cover;
     -ms-flex-negative: 0;
     flex-shrink: 0
@@ -3821,8 +3824,8 @@ span:active {
 
 @media (min-width: 1280px) {
     .header__logo {
-        width: 56px;
-        height: 56px
+        width: 100px;
+        height: 100px
     }
 }
 
@@ -4670,7 +4673,7 @@ span:active {
 
 @media (min-width: 1280px) {
     .footer__copyright {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px
     }
 }
